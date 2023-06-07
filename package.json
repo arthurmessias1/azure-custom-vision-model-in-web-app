@@ -1,7 +1,15 @@
 {
-  "name": "my-app",
+  "name": "meu-app",
   "version": "1.0.0",
+  "description": "Descrição do meu aplicativo",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
   "engines": {
-    "node": "16.0"
+    "node": "16.x"
+  },
+  "dependencies": {
+    // suas dependências vão aqui
   }
 }
